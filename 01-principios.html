@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map</title>
+    <style>
+        @import url("https://unpkg.com/leaflet@1.9.3/dist/leaflet.css");
+        #map {
+            margin: 0 auto;
+            width: 50%;
+            min-height: 400px;
+            max-height: 500px;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Hello</h1>
+    <div id="map"></div>
+
+</body>
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+<script>
+
+    var mapita = L.map('map').setView([51.505, -0.09], 13);
+
+</script>
+
+</html>
